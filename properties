@@ -1,0 +1,13 @@
+[ssh]
+host=localhost
+port=22
+user=
+password=
+
+[weblogic]
+log.path = /home/user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/servers/AdminServer/logs/AdminServer.log
+log.instance.start.date =^[#]{4}<
+log.instance.end.date =\' [A-Za-z]{2,5}> <[A-Za-z]{2,5}> <.+
+
+[arg]
+date =22-ago-2016 19H42
